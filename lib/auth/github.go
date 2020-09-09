@@ -644,13 +644,13 @@ func (c *githubAPIClient) get(url string) ([]byte, string, error) {
 
 const (
 	// GithubAuthURL is the Github authorization endpoint
-	GithubAuthURL = "https://github.com/login/oauth/authorize"
+	GithubAuthURL = "https://gw-repo.ariba.com/login/oauth/authorize"
 
 	// GithubTokenURL is the Github token exchange endpoint
-	GithubTokenURL = "https://github.com/login/oauth/access_token"
+	GithubTokenURL = "https://gw-repo.ariba.com/login/oauth/access_token"
 
 	// GithubAPIURL is the Github base API URL
-	GithubAPIURL = "https://api.github.com"
+	GithubAPIURL = "https://gw-repo.ariba.com/api/v3"
 
 	// MaxPages is the maximum number of pagination links that will be followed.
 	MaxPages = 99
